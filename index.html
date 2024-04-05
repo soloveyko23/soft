@@ -13,6 +13,9 @@
       <div class="view-screen__background z-10" id="map">
         
       </div>
+      <div class="view-screen__background background-image z-10 hidden " id="background-image">
+        <img src="img/map-view_2x.jpg" class="w-full h-screen object-cover" alt="img">
+      </div>
       <div class="view-screen__body max-w-[90rem] mx-auto flex flex-col justify-between gap-5 absolute inset-0 w-full h-full p-5">
         <div class="view-screen__header flex justify-between gap-10 w-full">
           <div class="alert-block flex flex-col gap-3 flex-[0_1_375px] max-w-[23.4375rem] min-w-[23.4375rem] z-30">
@@ -424,7 +427,7 @@
             <div class="widget block-bg p-5 bg-pot-black/50 rounded-xl max-w-max flex-[0_1_12.625rem]">
               <a href="#" class="switch-view relative max-w-max inline-block mb-3">
                 <div class="switch-view__preview preview overflow-hidden rounded-md w-[10.875rem] h-[10.875rem]">
-                  <img src="img/widget-pic-real.jpg" alt="Real View">
+                  <img src="img/widget-pic-real.jpg" alt="Real View" id="view-image">
                 </div>
                 <div class="switch-view__scale absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 transition-transform z-10">
                   <img src="img/view-button.svg" alt="viewButton">
